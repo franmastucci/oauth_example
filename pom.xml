@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>dev.sultanov</groupId>
+    <artifactId>examples</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+    <modules>
+        <module>spring-boot-oauth2-mfa</module>
+        <module>grpc-java-authentication</module>
+        <module>grpc-java-exception-handling</module>
+        <module>spring-boot-oauth2-jwt-claims</module>
+        <module>spring-data-attribute-encryption</module>
+        <module>schema-based-multi-tenancy</module>
+        <module>grpc-graphql-api</module>
+        <module>grpc-client-side-load-balancing</module>
+        <module>spring-boot-oauth2-pkce</module>
+        <module>spring-boot-oauth2-keycloak</module>
+        <module>spring-security-opa-authz</module>
+        <module>cadence-saga</module>
+        <module>spring-boot-unmanaged-objects</module>
+        <module>grpc-java-long-lived-stream</module>
+    </modules>
+
+</project>
